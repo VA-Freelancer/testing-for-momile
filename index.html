@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=320, initial-scale=1">
-    <link rel="stylesheet" href="../css/main.min.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+    <link rel="apple-touch-icon" href="img/officeexcel_oficina_13053.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="JS skill">
+    <meta name="application-name" content="JS skill">
+<!--    <link rel="manifest" href="/manifest.webmanifest">-->
+    <link rel="shortcut icon" sizes="196×196" href="img/officeexcel_oficina_13053.png">
+    <link rel="stylesheet" href="css/main.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
           rel="stylesheet">
     <title>Javascript Skills</title>
 </head>
-<body class="">
-    <div class="progressbar">
+    <body class="">
+
+    <div class="page">
+        <div class="progressbar">
     <div class="progress-line"></div>
 </div>
 
-    <div class="page">
         <header>
             <div class="mobile-container" data-screen="menu">
                 <div class="header-wrapper">
                     <div class="logo">
                         <a href="#" class="logo-link">Vproger</a>
                         <span class="logo-slogan">
-                            design for you
-                        </span>
+                                design for you
+                            </span>
                     </div>
                     <div class="change-theme">
                         <ul class="change-color-theme">
@@ -109,10 +118,30 @@
             </section>
             <section class="filter" data-block="three">
                 <div class="mobile-container">
-                    <div class="filter-list">
+    <div id="battery">
+        <div id="battery-level"></div>
+        <div id="battery-level-digit">0%</div>
+    </div>
+    <div id="charging-time"></div>
+    <div id="discharging-time"></div>
+</div>
+<div class="mobile-container" id="battery-section">
+        <div class="battery-box">
+            <div class="battery-content">
+                <h3>Battery</h3>
+                <div class="battery-shape">
+                    <div class="battery-level">
+                        <div class="battery-percentage">
 
+                        </div>
                     </div>
+                    <div class="battery-percent">50%</div>
                 </div>
+
+            </div>
+        </div>
+</div>
+
             </section>
             <section class="my-skills" data-block="four">
                 <div class="mobile-container">
@@ -124,24 +153,26 @@
                 </div>
             </section>
         </main>
-        <div class="footer">
+        <footer class="footer">
             <div class="mobile-container">
                 <div class="header-wrapper">
                     <div class="logo">
                         <a href="#" class="logo-link">Vproger</a>
                         <span class="logo-slogan">
-                            design for you
-                        </span>
+                                design for you
+                            </span>
                     </div>
+                </div>
             </div>
-        </div>
+        </footer>
     </div>
 
+        <!--    <script src="js/current-device.min.js"></script>-->
+        <script src="js/main.js"></script>
+        <script src="vendor/screen-touch-slider.js"></script>
+        <script src="vendor/scrollbar-progressive.js"></script>
+        <script src="vendor/night-to-day.js"></script>
+        <script src="vendor/battery.js"></script>
 
-<!--    <script src="js/current-device.min.js"></script>-->
-    <script src="js/main.js"></script>
-    <script src="vendor/screen-touch-slider.js"></script>
-    <script src="vendor/scrollbar-progressive.js"></script>
-    <script src="vendor/night-to-day.js"></script>
-</body>
+    </body>
 </html>

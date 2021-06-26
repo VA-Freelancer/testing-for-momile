@@ -1,0 +1,14 @@
+{
+  "name": "skill js",
+  "description": "Plugin in js",
+  "launch_path": "/index.html",
+  "icons": {
+    "512": "/img/officeexcel_oficina_13053.png",
+    "128": "/img/officeexcel_oficina_13053.png"
+  },
+  "developer": {
+    "name": "Your name or organization",
+    "url": "https://va-freelancer.github.io/testing-for-momile/"
+  },
+  "default_locale": "en"
+}
