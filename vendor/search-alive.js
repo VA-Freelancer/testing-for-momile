@@ -28,7 +28,7 @@ function insertMark(searchWorld, pos, len){
     return searchWorld.slice(0, pos) + '<mark>' + searchWorld.slice(pos, pos + len) + '</mark>' + searchWorld.slice(pos + len);
 }
 
-const searchInputBox = document.querySelector('.vp-search-alive--wrapper');
+const searchInputBox = document.querySelector('#alive-search');
 const searchDataBox = document.querySelector('.vp-search__date');
 
 
@@ -40,16 +40,3 @@ searchInputBox.addEventListener('blur', function (e){
     searchDataBox.classList.remove('focus')
 
 })
-// searchInputBox.onfocus = function (){
-//     if(searchInputBox.onfocus){
-//         console.log('focus');
-//     }
-//
-// }
-// searchInputBox.blur = function (){
-//
-//     if(searchInputBox.blur){
-//
-//     }
-//
-// }
