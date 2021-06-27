@@ -23,9 +23,8 @@
         <div class="progressbar">
     <div class="progress-line"></div>
 </div>
-
         <header>
-            <div class="mobile-container" data-screen="menu">
+            <div class="mobile-container" data-screen="mobile">
                 <div class="header-wrapper">
                     <div class="logo">
                         <a href="#" class="logo-link">Vproger</a>
@@ -78,9 +77,30 @@
                 </div>
                 <div class="mobile-container" data-screen="animation">
                     <div class="wrapper">
-                        <h2 class="skills-heading">Super Tab</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet architecto cum cupiditate eaque eligendi expedita modi nesciunt non nulla, rem tenetur totam vero. Adipisci deserunt fugit harum numquam recusandae!
-                        </p>
+                        <h2 class="skills-heading">Super search</h2>
+                        <div class="vp-search-alive--wrapper">
+    <div class="vp-search-alive">
+        <label for="alive-search"> Живой поиск</label>
+        <input type="text" id="alive-search" class="vp-search-alive-input">
+    </div>
+    <div class="vp-search__date" data-search-base="data" id="search-alive-date">
+        <ul class="data__list">
+            <li ><a href="#" >Javascript</a></li>
+            <li><a href="#">Прогер</a></li>
+            <li><a href="#">Фрилансер</a></li>
+            <li><a href="#">Живой Поиск</a></li>
+            <li><a href="#">Викулов Андрей</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Ищем вместе</a></li>
+            <li><a href="#">Да да я тут</a></li>
+            <li ><a href="#">Джаваскрипт</a></li>
+            <li><a href="#">Супер поиск</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
                     </div>
 
                 </div>
@@ -101,19 +121,61 @@
 
                 </div>
                 <div class="mobile-container"  data-screen="title">
-                    <div class="wrapper">
-                        <h2 class="skills-heading">Super form</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet architecto cum cupiditate eaque eligendi expedita modi nesciunt non nulla, rem tenetur totam vero. Adipisci deserunt fugit harum numquam recusandae!
-                        </p>
-                    </div>
+                    <h2 class="skills-heading">slider</h2>
+                    
+    <div class="vp-slider-wrapper">
+        <div class="vp-slider">
+            <div class="vp-slider-inner">
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+                <div class="vp-slide">
+                    <svg class="fox touch-image">
+                        <use xlink:href="img/sprite.svg#cow"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
                 </div>
             </section>
             <section class="menu" data-block="two">
                 <div class="mobile-container">
-                    <h2 class="skills-heading">Super Article : </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet architecto cum cupiditate eaque eligendi expedita modi nesciunt non nulla, rem tenetur totam vero. Adipisci deserunt fugit harum numquam recusandae!
-                    </p>
+                    <div class="touch-box">
+                        <svg class="fox touch-image">
+                            <use xlink:href="img/sprite.svg#fox"></use>
+                        </svg>
+                    </div>
                 </div>
             </section>
             <section class="filter" data-block="three">
@@ -123,13 +185,18 @@
         <div id="battery-level-digit">0%</div>
     </div>
     <div class="" id="status"></div>
-    <div id="charging-time"></div>
+    <div id="charging-time"><p class="not-supported">
+
+    </p></div>
     <div id="discharging-time"></div>
 </div>
 <div class="mobile-container" id="battery-section">
         <div class="battery-box">
             <div class="battery-content">
                 <h3>Battery</h3>
+                <p class="not-supported">
+
+                </p>
                 <div class="battery-shape">
                     <div class="battery-level">
                         <div class="battery-percentage">
@@ -174,6 +241,8 @@
         <script src="vendor/scrollbar-progressive.js"></script>
         <script src="vendor/night-to-day.js"></script>
         <script src="vendor/battery.js"></script>
+        <script src="vendor/swipe.js"></script>
+        <script src="vendor/search-alive.js"></script>
 
     </body>
 </html>

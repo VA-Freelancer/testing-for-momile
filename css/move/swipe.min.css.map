@@ -1,0 +1,1 @@
+{"version":3,"sources":["move/swipe.min.css"],"names":[],"mappings":"AAAA,6BACE,MAAA,MACA,OAAA,MACA,WAAA,KAGF,0CACE,MAAA,KACA,OAAA","file":"swipe.min.css","sourcesContent":[".mobile-container .touch-box {\n  width: 300px;\n  height: 300px;\n  background: #999;\n}\n\n.mobile-container .touch-box .touch-image {\n  width: 100%;\n  height: 100%;\n}\n"]}
